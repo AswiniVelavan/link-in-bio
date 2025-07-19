@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>link-in-bio</title>
-     
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Pinyon+Script&display=swap" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
     <style>
-      *{
+     /* *{
         border: 1px red dashed; 
-        
-        
-      }
+       }*/
       html
       {
         min-height:100%;
@@ -17,11 +20,12 @@
      body
       
         {
+          min-height:100%;
           padding-top:40px;
           padding-bottom:40px;
           background: linear-gradient(135deg, #ffe5ce, #ffd0ba, #ffb9b0, #ffa2b0, #fd8dba, #ec7cca, #cd72de, #9c71f2);
-          min-height:100%;
           color: #fff;
+          font-family: Impact;
         }
       .avator-image
       {
@@ -29,7 +33,7 @@
         height: 128px;
         object-fit: cover;
         border-radius: 128px;
-        border: 3px solid green;
+        border: 4px solid rgba(67, 4, 83, 0.795);
       }
       .thumbnails
       {
@@ -37,14 +41,18 @@
         height: 48px;
         object-fit: cover;
         border-radius: 48px;
-        border: 2px black solid;
+        border: 2px rgba(67, 4, 83, 0.795) solid;
       }
       .item
       {
         background-color:#bd648286;
-        margin:20px;
+        margin-bottom:20px;
         display: flex;
         align-items: center;
+        border-radius: 1000px;
+        padding: 5px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px rgba(122, 9, 85, 0.747);
 
       }
       .main-container
@@ -61,12 +69,20 @@
       {
         margin-bottom: 30p;
         text-align: center;
+        font-family:Manufacturing Consent;
+        text-shadow: 2px 2px 4px rgb(239, 234, 241);
+        font-size:xx-large;
+        color:rgb(72, 4, 88);
+          
       }
       .social-icons-row
       {
         margin:30px;
         display: flex;
         justify-content: space-around;
+        text-shadow: 2px 2px 4px rgba(241, 238, 238, 0.74);
+        color:rgba(67, 4, 83, 0.795);
+        
 
         
       }
@@ -77,7 +93,11 @@
       }
 
       a{
-          color:#fff;
+          color:rgba(67, 4, 83, 0.795);
+          text-decoration: none;
+          text-shadow: 2px 2px 4px rgba(241, 238, 238, 0.74);
+          font-size: larger;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
           
       }
       
@@ -94,18 +114,17 @@
         Aswini Gunasekaran
       </div>
       <div class="social-icons-row">
-        <div class="link-one">
           <a href="https://github.com/AswiniVelavan" target="_blank">
-            github
+            <i class="fa-brands fa-square-github fa-2x"></i>
           </a>
           <a href="https://www.linkedin.com/in/aswinigunasekaran" target="_blank">
-            linkedin
+            <i class="fa-brands fa-linkedin fa-2x"></i>
           </a>
           <a href="https://www.facebook.com/aswini.gunasekaran.2025" target="_blank">
-            facebook
+            <i class="fa-brands fa-facebook fa-2x"></i>
           </a>
         </div>
-      </div>
+      
       <div class="link-row">
         <div class="item">
           <img class="thumbnails" src="images/py.jpg" alt="py image">      
@@ -120,6 +139,6 @@
           </a>
         </div> 
       </div>
-    </div> 
+    </di> 
   </body>
 </html>
