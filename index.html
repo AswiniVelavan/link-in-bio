@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>link-in-bio</title>
-    <meta charset="UTF-8"> 
+     
     <style>
       *{
         border: 1px red dashed; 
         
+        
       }
-      body
+      html
+      {
+        min-height:100%;
+      }
+     body
       
         {
-        padding-top:40px;
-        padding-bottom:40px;
-      }
+          padding-top:40px;
+          padding-bottom:40px;
+          background: linear-gradient(135deg, #ffe5ce, #ffd0ba, #ffb9b0, #ffa2b0, #fd8dba, #ec7cca, #cd72de, #9c71f2);
+          min-height:100%;
+          color: #fff;
+        }
       .avator-image
       {
         width: 128px;
@@ -29,6 +38,47 @@
         object-fit: cover;
         border-radius: 48px;
         border: 2px black solid;
+      }
+      .item
+      {
+        background-color:#bd648286;
+        margin:20px;
+        display: flex;
+        align-items: center;
+
+      }
+      .main-container
+      {
+        width:640px;
+        margin:auto;
+      }
+      .image-row
+      {
+        margin-bottom:20px;
+        text-align: center;
+      }
+      .name-row
+      {
+        margin-bottom: 30p;
+        text-align: center;
+      }
+      .social-icons-row
+      {
+        margin:30px;
+        display: flex;
+        justify-content: space-around;
+
+        
+      }
+      .link-text
+      {
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      a{
+          color:#fff;
+          
       }
       
     </style> 
@@ -59,13 +109,13 @@
       <div class="link-row">
         <div class="item">
           <img class="thumbnails" src="images/py.jpg" alt="py image">      
-          <a href="http://paulgraham.com/startupideas.html" target="_blank">
+          <a class="link-text" href="http://paulgraham.com/startupideas.html" target="_blank">
           How to get start up ideas
           </a>
         </div>
         <div class="item">
           <img class="thumbnails" src="images/typo.jpg" alt="typo image">
-          <a href="https://practicaltypography.com/typography-in-ten-minutes.html" target="_blank">
+          <a class="link-text" href="https://practicaltypography.com/typography-in-ten-minutes.html" target="_blank">
             typography-in-ten-minutes
           </a>
         </div> 
