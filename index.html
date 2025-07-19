@@ -1,152 +1,144 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>link-in-bio</title>
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Pinyon+Script&display=swap" rel="stylesheet">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
-
-    <style>
-     /* *{
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>link-in-bio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js">
+  </script>
+  <style>
+    /* *{
         border: 1px red dashed; 
        }*/
-      html
-      {
-        min-height:100%;
-      }
-     body
-      
-        {
-          min-height:100%;
-          padding-top:40px;
-          padding-bottom:40px;
-          background: linear-gradient(135deg, #ffe5ce, #ffd0ba, #ffb9b0, #ffa2b0, #fd8dba, #ec7cca, #cd72de, #9c71f2);
-          color: #fff;
-          font-family: Impact;
-        }
-      .avator-image
-      {
-        width: 128px;
-        height: 128px;
-        object-fit: cover;
-        border-radius: 128px;
-        border: 4px solid rgba(67, 4, 83, 0.795);
-      }
-      .thumbnails
-      {
-        width: 48px;
-        height: 48px;
-        object-fit: cover;
-        border-radius: 48px;
-        border: 2px rgba(67, 4, 83, 0.795) solid;
-      }
-      .item
-      {
-        background-color:#bd648286;
-        margin-bottom:20px;
-        display: flex;
-        align-items: center;
-        border-radius: 1000px;
-        padding: 5px;
-        padding-right: 53px;
-        box-shadow: 4px 4px 10px 0px rgba(122, 9, 85, 0.747);
+    html {
+      min-height: 100%;
+    }
 
-      }
-      .main-container
-      {
-        width:640px;
-        margin:auto;
-      }
-      .image-row
-      {
-        margin-bottom:20px;
-        text-align: center;
-      }
-      .name-row
-      {
-        margin-bottom: 30p;
-        text-align: center;
-        font-family:Manufacturing Consent;
-        text-shadow: 2px 2px 4px rgb(239, 234, 241);
-        font-size:xx-large;
-        color:rgb(72, 4, 88);
-          
-      }
-      .social-icons-row
-      {
-        margin:30px;
-        display: flex;
-        justify-content: space-around;
-        text-shadow: 2px 2px 4px rgba(241, 238, 238, 0.74);
-        color:rgba(67, 4, 83, 0.795);
-        
+    body {
+      min-height: 100%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background: linear-gradient(135deg, #ffe5ce, #ffd0ba, #ffb9b0, #ffa2b0, #fd8dba, #ec7cca, #cd72de, #9c71f2);
+      color: #fff;
+      font-family: Impact;
+    }
 
-        
-      }
-      .link-text
-      {
-        text-align: center;
-        flex-grow: 1;
-      }
+    .avator-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+      border: 4px solid rgba(67, 4, 83, 0.795);
+    }
 
-      a{
-          color:rgba(67, 4, 83, 0.795);
-          text-decoration: none;
-          text-shadow: 2px 2px 4px rgba(241, 238, 238, 0.74);
-          font-size: larger;
-          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-          
-      }
-      
-    </style> 
-  </head>
+    .thumbnails {
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+      border-radius: 48px;
+      border: 2px rgba(67, 4, 83, 0.795) solid;
+    }
 
-  <body> 
-    <div class="main-container">
+    .item {
+      background-color: #bd648286;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      border-radius: 1000px;
+      padding: 5px;
+      padding-right: 53px;
+      box-shadow: 4px 4px 10px 0px rgba(122, 9, 85, 0.747);
 
-      <div class="image-row">
-        <img class="avator-image" src="images/profile.jpg" alt="profile image">
-      </div>
-      <div class="name-row">
-        Aswini Gunasekaran
-      </div>
-      <div class="social-icons-row">
-          <a href="https://github.com/AswiniVelavan" target="_blank">
-            <i class="fa-brands fa-square-github fa-2x"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/aswinigunasekaran" target="_blank">
-            <i class="fa-brands fa-linkedin fa-2x"></i>
-          </a>
-          <a href="https://www.facebook.com/aswini.gunasekaran.2025" target="_blank">
-            <i class="fa-brands fa-facebook fa-2x"></i>
-          </a>
-        </div>
-      
-      <div class="link-row">
-        <div class="item">
-          <img class="thumbnails" src="images/py.jpg" alt="paulgraham image">      
-          <a class="link-text" href="http://paulgraham.com/startupideas.html" target="_blank">
+    }
+
+    .main-container {
+      width: 640px;
+      margin: auto;
+    }
+
+    .image-row {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .name-row {
+      margin-bottom: 30p;
+      text-align: center;
+      font-family: Manufacturing Consent;
+      text-shadow: 2px 2px 4px rgb(239, 234, 241);
+      font-size: xx-large;
+      color: rgb(72, 4, 88);
+    }
+
+    .social-icons-row {
+      margin: 30px;
+      display: flex;
+      justify-content: space-around;
+      text-shadow: 2px 2px 4px rgba(241, 238, 238, 0.74);
+      color: rgba(67, 4, 83, 0.795);
+    }
+
+    .link-text {
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    a {
+      color: rgba(67, 4, 83, 0.795);
+      text-decoration: none;
+      text-shadow: 2px 2px 4px rgba(241, 238, 238, 0.74);
+      font-size: larger;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-container">
+
+    <div class="image-row">
+      <img class="avator-image" src="images/profile.jpg" alt="profile image">
+    </div>
+    <div class="name-row">
+      Aswini Gunasekaran
+    </div>
+    <div class="social-icons-row">
+      <a href="https://github.com/AswiniVelavan" target="_blank">
+        <i class="fa-brands fa-square-github fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/aswinigunasekaran" target="_blank">
+        <i class="fa-brands fa-linkedin fa-2x"></i>
+      </a>
+      <a href="https://www.facebook.com/aswini.gunasekaran.2025" target="_blank">
+        <i class="fa-brands fa-facebook fa-2x"></i>
+      </a>
+    </div>
+
+    <div class="link-row">
+      <div class="item">
+        <img class="thumbnails" src="images/py.jpg" alt="paulgraham image">
+        <a class="link-text" href="http://paulgraham.com/startupideas.html" target="_blank">
           How to get start up ideas
-          </a>
-        </div>
-        <div class="item">
-          <img class="thumbnails" src="images/typo.jpg" alt="typography image">
-          <a class="link-text" href="https://practicaltypography.com/typography-in-ten-minutes.html" target="_blank">
-            typography-in-ten-minutes
-          </a>
-        </div>
-         
-        <div class="item">
-            <img class="thumbnails" src="images/coursera.jpg" alt="coursera image">
-            <a class="link-text" href="https://www.coursera.org/learn/learning-how-to-learn" target="_blank">
-              Learning How to Learn (free course)
-            </a>
-        </div>
-        </div> 
+        </a>
       </div>
-    </di> 
-  </body>
+      <div class="item">
+        <img class="thumbnails" src="images/typo.jpg" alt="typography image">
+        <a class="link-text" href="https://practicaltypography.com/typography-in-ten-minutes.html" target="_blank">
+          typography-in-ten-minutes
+        </a>
+      </div>
+      <div class="item">
+        <img class="thumbnails" src="images/coursera.jpg" alt="coursera image">
+        <a class="link-text" href="https://www.coursera.org/learn/learning-how-to-learn" target="_blank">
+          Learning How to Learn (free course)
+        </a>
+      </div>
+    </div>
+  </div>
+  </di>
+</body>
 </html>
