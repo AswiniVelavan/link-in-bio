@@ -11,23 +11,19 @@ View it on Render https://link-in-bio-sz2s.onrender.com or github repo https://g
 ![alt text](images/link-in-bio.jpg)
 
 ## Features
-<li>
 <ul>
-Responsive layout<br>
-Profile image and name<br>
-Social media icons with links<br>
-Link cards with thumbnails and descriptions<br>
+<li>Responsive layout</li>
+<li>Profile image and name</li>
+<li>Social media icons with links</li>
+<li>Link cards with thumbnails and descriptions</li>
 </ul>
-</li>
 
 ## How to Use
-<li>
 <ul>
-Open the index.html file in any web browser.<br>
-Click on the social media icons to visit your GitHub, LinkedIn, or Facebook.<br>
-Click on any button link to open the external resources (e.g., articles or courses).<br>
+<li>Open the index.html file in any web browser.</li>
+<li>Click on the social media icons to visit your GitHub, LinkedIn, or Facebook.</li>
+<li>Click on any button link to open the external resources (e.g., articles or courses).</li>
 </ul>
-</li>
 
 ## Author
 Aswini Gunasekaran
